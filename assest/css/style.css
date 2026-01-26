@@ -1,8 +1,28 @@
+/*added fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oswald  {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
 
 /* general styles*/
 body {
@@ -17,6 +37,7 @@ body {
 header {
     background-color: lightcoral;
 }
+
 
 /* Main content */
 main {
