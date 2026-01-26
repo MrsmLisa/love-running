@@ -51,6 +51,18 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*navbar styles with dropdowntoggle*/
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    padding:0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0%;
+    display: none;
+
+}
+
 #menu > li {
     margin-bottom: 1em;
 }
