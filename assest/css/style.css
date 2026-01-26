@@ -80,8 +80,8 @@ nav {
     display: none;
 }
 
-.nav-tobble-label {
-    font-size: 2em;
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
@@ -114,7 +114,7 @@ footer {
     #menu > li {
         padding-left: 1rem;
     }
-    .nav-tobble-label {
+    .nav-toggle-label {
         display: none;
     }
     #logo {
@@ -128,4 +128,10 @@ footer {
         margin-top: 79px;
     }
 
+}
+/*media query: tablets and larger (992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
