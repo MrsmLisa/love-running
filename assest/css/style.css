@@ -116,7 +116,7 @@ main {
 #cover-text > h2, #cover-text >h3 {
 color: #ffffff;
 }
-
+/* resons part*/
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -157,6 +157,31 @@ color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*meet-up times*/
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /*This will not wrap screens smaler then 400px wide*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*Create a grid of meetup times div in the background image*/
+    border: 2px solid white;
+}
+
+#times h3 {
+    /*overridning the general code*/
+    color: #fafafa;
 }
 
 /* Footer */
