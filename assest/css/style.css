@@ -240,7 +240,7 @@ color: #ffffff;
     padding: 15px 32px;
 }
 
-.radio-buttons {
+.radio-button {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -327,6 +327,30 @@ color: #ffffff;
      #photos {
         column-count: 3;
     }
+
+    /* sign-up form*/
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10px;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+
+    }
+
 
 
 /*media query: tablets and larger (992px and up)*/
